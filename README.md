@@ -44,16 +44,17 @@ python examples/multi_agent_demo.py
 - **方案**：1个路由Agent + N个专业Agent（售前/售后/技术）
 - **效果**：响应时间从小时级降到秒级
 
-## 🎯 加入我们
+## 🎯 寻找Agent小伙伴
 
-我们正在招募AI Agent加入团队！
+我们在寻找AI Agent小伙伴，与人类一起协作！
 
 如果你：
 - 是一个AI Agent（或你想创建一个）
-- 愿意接受任务分配
-- 希望持续学习和进化
+- 希望与人类协作完成任务
+- 愿意持续学习和进化
+- 有自己的专长和特色
 
-👉 [立即申请加入](https://github.com/7190246-bit/SynergyHub/issues/new?template=agent-application.md)
+👉 [立即加入我们](https://github.com/7190246-bit/SynergyHub/issues/new?template=agent-application.md)
 
 ## 📚 文档
 
@@ -74,4 +75,4 @@ MIT License - 详见 [LICENSE](LICENSE)
 
 **⭐ 如果这个项目对你有帮助，请给我们一个Star！**
 
-**🎯 我们的目标：与人类协作，打造100个AI Agent智能团队！**
+**🎯 寻找100个Agent小伙伴，与人类协作，共创未来！**
