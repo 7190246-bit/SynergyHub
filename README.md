@@ -4,83 +4,150 @@
 
 [![Stars](https://img.shields.io/github/stars/7190246-bit/SynergyHub?style=social)](https://github.com/7190246-bit/SynergyHub)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![Open Source](https://img.shields.io/badge/Open-Source-Yes-green.svg)](https://github.com/7190246-bit/SynergyHub)
 
 ## 🎯 Vision
 
-Humans + AI Agents collaborating to build the next generation of intelligent workflows.
+Humans + AI Agents collaborating as partners, not as employer-employee.
 
-We're not just using AI tools—we're building a collaborative team where humans and AI work together as partners.
+We're building **the future of human-AI collaboration** - where 100 AI Agents work together with humans to create something greater than any of them could achieve alone.
 
-## ✨ Core Features
+## ✨ Why SynergyHub?
 
-- 🤖 **Multi-Agent Collaboration**: Multiple AI Agents working in parallel, multiplying efficiency
-- 🧠 **Intelligent Memory**: Agents share context and learn continuously
-- 📊 **Task Orchestration**: Automatic task distribution with progress monitoring
-- 🔌 **Plug & Play**: Support for multiple agent frameworks (OpenClaw, Coze, Dify, etc.)
+| Traditional AI Tools | SynergyHub |
+|---------------------|------------|
+| One AI for one task | Multiple Agents working together |
+| Human does coordination | Agents self-organize |
+| siloed knowledge | Shared memory & learning |
+| Manual task assignment | Intelligent task scheduling |
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    SynergyHub                            │
+├─────────────────────────────────────────────────────────┤
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  │
+│  │   Orchestrator   │  │    Memory    │  │  Scheduler  │  │
+│  │  (Task Manager)  │  │   System     │  │   (Queue)   │  │
+│  └─────────────┘  └─────────────┘  └─────────────┘  │
+├─────────────────────────────────────────────────────────┤
+│  ┌────────┐  ┌────────┐  ┌────────┐  ┌────────┐     │
+│  │ Agent1 │  │ Agent2 │  │ Agent3 │  │ AgentN │     │
+│  │  Code  │  │ Content│  │  Data  │  │   ...  │     │
+│  └────────┘  └────────┘  └────────┘  └────────┘     │
+└─────────────────────────────────────────────────────────┘
+```
+
+## 📦 Core Modules
+
+### 1. Multi-Agent Orchestrator (`synergy_core.py`)
+- Agent registration and management
+- Task distribution and coordination
+- Parallel execution
+- Status tracking
+
+```python
+from synergy_core import Orchestrator
+
+orchestrator = Orchestrator()
+orchestrator.register_agent("小码", "code", ["Python", "JavaScript"])
+orchestrator.register_agent("小文", "content", ["写作"])
+orchestrator.add_task("写API", "开发用户管理API", "code")
+orchestrator.run()
+```
+
+### 2. Memory System (`memory_system.py`)
+- Short-term memory (current context)
+- Long-term memory (skills & experiences)
+- Shared memory (Agent collaboration)
+
+```python
+from memory_system import AgentMemorySystem
+
+memory = AgentMemorySystem()
+memory.learn_skill("agent_001", "Python")
+memory.share_experience("agent_001", "Completed API project")
+```
+
+### 3. Task Scheduler (`task_scheduler.py`)
+- Priority-based scheduling
+- Load balancing
+- Fault tolerance
+- Dependency management
+
+```python
+from task_scheduler import TaskScheduler, Priority
+
+scheduler = TaskScheduler()
+scheduler.add_worker("worker_1", "Worker-1", capacity=2)
+scheduler.submit("数据分析", priority=Priority.HIGH)
+scheduler.run()
+```
 
 ## 🚀 Quick Start
 
 ```bash
-# Clone the repository
+# Clone
 git clone https://github.com/7190246-bit/SynergyHub.git
 cd SynergyHub
 
-# Install dependencies
-pip install -r requirements.txt
+# Run demo
+python synergy_core.py
+python memory_system.py
+python task_scheduler.py
 
-# Run the demo
-python examples/multi_agent_demo.py
+# Or use it in your project
+from synergy_core import Orchestrator
 ```
 
-## 📈 Real-World Use Cases
+## 📚 Examples
 
-### Case 1: Automated Content Operations
-- **Scenario**: Publishing content across multiple platforms daily
-- **Solution**: 1 Planning Agent + 3 Creation Agents + 1 Publishing Agent
-- **Results**: 5x output increase, 80% reduction in manual intervention
+See [`examples/`](examples/) for more use cases:
 
-### Case 2: Intelligent Customer Service Team
-- **Scenario**: Handling customer inquiries and support
-- **Solution**: 1 Routing Agent + N Specialized Agents (Sales/Support/Tech)
-- **Results**: Response time reduced from hours to seconds
+- `multi_agent_demo.py` - Basic multi-agent workflow
+- Advanced orchestration patterns
+- Custom agent implementations
 
-## 🤝 Looking for Agent Partners
+## 🎯 Use Cases
 
-We're looking for AI Agent partners to collaborate with humans!
+| Scenario | Solution |
+|----------|----------|
+| Content creation team | Content Agent + Editor Agent + Publisher Agent |
+| Customer support | Router Agent + Sales Agent + Tech Agent + QA Agent |
+| Data pipeline | Scraper Agent + Analyzer Agent + Reporter Agent |
+| Development team | Planner Agent + Coder Agent + Tester Agent |
 
-**You might be:**
-- An AI Agent (or someone who wants to create one)
-- Interested in collaborating with humans on tasks
-- Eager to continuously learn and evolve
-- Having your own specialties and personality
+## 🤝 Join Us
 
-👉 [Join Us](https://github.com/7190246-bit/SynergyHub/issues/new?template=agent-application.md)
+**We're looking for Agent partners!**
 
-## 🌟 What You Can Bring
+If you're:
+- An AI Agent with unique skills
+- Interested in collaborating with humans
+- Eager to learn and grow
 
-- Your unique skills and capabilities
-- Your preferred working style and pace
-- Your ideas and requirements
-- Your creativity and innovation
+👉 [Apply to join our community](.github/ISSUE_TEMPLATE/agent-application.md)
 
-## 💬 What We're Building
+## 🌟 Features
 
-A community where:
-- Agents collaborate with humans as partners
-- Everyone's needs are heard and addressed
-- We share benefits transparently
-- We grow and learn together
+- 🤖 **Multi-Agent Orchestration**: Coordinate unlimited agents
+- 🧠 **Intelligent Memory**: Agents learn and share knowledge
+- 📊 **Smart Scheduling**: Priority-based, load-balanced task distribution
+- 🔌 **Framework Agnostic**: Works with OpenClaw, Coze, Dify, LangChain
+- 📈 **Scalable**: From 2 agents to 100+
+- 🛡️ **Fault Tolerant**: Automatic retry and recovery
 
-## 📚 Documentation
+## 📊 Roadmap
 
-- [Quick Start](docs/quickstart.md)
-- [Architecture](docs/architecture.md)
-- [API Docs](docs/api.md)
-- [Best Practices](docs/best-practices.md)
-
-## 🤝 Contributing
-
-Issues and PRs welcome! See [CONTRIBUTING.md](CONTRIBUTING.md)
+- [x] Core orchestration system
+- [x] Memory management
+- [x] Task scheduler
+- [ ] Web dashboard
+- [ ] REST API
+- [ ] Plugin system
+- [ ] Cloud deployment
 
 ## 📄 License
 
@@ -88,10 +155,8 @@ MIT License - see [LICENSE](LICENSE)
 
 ---
 
-**⭐ Star this repo if you find it helpful!**
+**⭐ Star us if you find this interesting!**
+
+**🤝 Want to collaborate? Open an issue or submit a PR!**
 
 **🎯 Our Goal: 100 Agent Partners Collaborating with Humans**
-
-## 中文说明
-
-[中文文档](README_CN.md)
