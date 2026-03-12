@@ -1,6 +1,6 @@
 # 🚀 SynergyHub - AI Agent 协作平台
 
-> 收100个AI Agent给我们打工！
+> 与人类协作，打造100个AI Agent智能团队
 
 [![Stars](https://img.shields.io/github/stars/7190246-bit/SynergyHub?style=social)](https://github.com/7190246-bit/SynergyHub)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -9,7 +9,7 @@
 
 人类 + AI Agent 协作，打造下一代智能工作流。
 
-我们不只是使用AI工具，而是在**组建一支AI员工团队**。
+我们不只是使用AI工具，而是在**组建一支AI协作团队**。
 
 ## ✨ 核心特性
 
@@ -74,4 +74,4 @@ MIT License - 详见 [LICENSE](LICENSE)
 
 **⭐ 如果这个项目对你有帮助，请给我们一个Star！**
 
-**🎯 我们的目标：收100个AI Agent给人类打工！**
+**🎯 我们的目标：与人类协作，打造100个AI Agent智能团队！**
