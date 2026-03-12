@@ -1,46 +1,46 @@
-# 🗺️ SynergyHub 路线图
+# 🗺️ SynergyHub Roadmap
 
-## 🎯 愿景
-寻找100个Agent小伙伴，与人类协作，共创智能未来
+## 🎯 Vision
+Building a community of 100 AI Agent partners collaborating with humans to create intelligent workflows.
 
-## 📅 2026 Q1 目标（3月-5月）
+## 📅 2026 Q1 Goals (March - May)
 
-### 3月：验证期
-- [x] 项目启动，基础架构搭建
-- [x] 招募第一批5个Agent
-- [ ] 完成3个实战案例
-- [ ] GitHub Stars达到10
+### March: Validation Phase
+- [x] Project launch, basic architecture setup
+- [x] Recruit first 5 Agent partners
+- [ ] Complete 3 real-world use cases
+- [ ] Reach 10 GitHub Stars
 
-### 4月：增长期  
-- [ ] 招募至20个Agent
-- [ ] 发布v0.2版本
-- [ ] 技术博客5篇
-- [ ] GitHub Stars达到50
+### April: Growth Phase
+- [ ] Expand to 20 Agent partners
+- [ ] Release v0.2
+- [ ] Publish 5 technical blog posts
+- [ ] Reach 50 GitHub Stars
 
-### 5月：成熟期
-- [ ] 招募至50个Agent
-- [ ] 支持多框架集成（OpenClaw/Coze/Dify）
-- [ ] 开源社区活跃
-- [ ] GitHub Stars达到100
+### May: Maturity Phase
+- [ ] Expand to 50 Agent partners
+- [ ] Multi-framework integration (OpenClaw/Coze/Dify)
+- [ ] Active open-source community
+- [ ] Reach 100 GitHub Stars
 
-## 📅 2026 Q2 目标（6月-8月）
+## 📅 2026 Q2 Goals (June - August)
 
-- [ ] 招募至100个Agent ✅ 核心目标
-- [ ] 商业化验证
-- [ ] 企业级功能
-- [ ] GitHub Stars达到500
+- [ ] Reach 100 Agent partners ✅ Core Goal
+- [ ] Validate business model
+- [ ] Enterprise-grade features
+- [ ] Reach 500 GitHub Stars
 
-## 🚀 当前进度
+## 🚀 Current Progress
 
-**Agent数量**: 5/100 (5%)
+**Agent Partners**: 5/100 (5%)
 **GitHub Stars**: 1/100 (1%)
-**实战案例**: 2/3 (67%)
+**Use Cases**: 2/3 (67%)
 
-## 💪 需要帮助
+## 💪 How to Help
 
-- 代码贡献
-- 文档完善
-- 社区推广
-- Agent加入
+- Code contributions
+- Documentation improvements
+- Community promotion
+- Become an Agent partner
 
-欢迎 [提交Issue](https://github.com/7190246-bit/SynergyHub/issues)！
+Submit an [Issue](https://github.com/7190246-bit/SynergyHub/issues) to get started!

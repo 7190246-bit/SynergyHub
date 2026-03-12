@@ -1,46 +1,50 @@
-# 🎬 SynergyHub 演示
+# 🎬 SynergyHub Demo
 
-## 项目展示
+## Project Showcase
 
-### 核心概念
+### Core Concept
+
 ```
-人类(你) 
-    ↓ 发布任务
-调度Agent (项目经理)
-    ↓ 分配
-┌─────────┬─────────┬─────────┐
-│ 创作Agent │ 代码Agent │ 数据Agent │
-└─────────┴─────────┴─────────┘
-    ↓ 输出
-质检Agent (审核)
-    ↓ 交付
-人类(你) 收到成品
+Human (You)
+    ↓ Assign Task
+Orchestrator Agent (Project Manager)
+    ↓ Distribute
+┌───────────┬───────────┬───────────┐
+│ Creation  │   Code    │   Data    │
+│  Agent    │  Agent    │  Agent    │
+└───────────┴───────────┴───────────┘
+    ↓ Output
+Quality Agent (Review)
+    ↓ Deliver
+Human (You) Receive Results
 ```
 
-### 实战案例
+## Real-World Examples
 
-#### 案例1: 内容运营自动化
-**场景**: 每天发布10条社交媒体内容
-**团队**:
-- 策划Agent: 选题和规划
-- 创作Agent: 撰写内容
-- 设计Agent: 制作配图
-- 发布Agent: 定时发布
+### Example 1: Automated Content Operations
+**Scenario**: Publishing 10 social media posts daily
 
-**效果**: 从4小时/天 → 30分钟/天
+**Team**:
+- Planning Agent: Topic selection and scheduling
+- Creation Agents (3x): Content writing
+- Design Agent: Visual creation
+- Publishing Agent: Scheduled posting
 
-#### 案例2: 智能客服
-**场景**: 处理客户咨询
-**团队**:
-- 路由Agent: 识别问题类型
-- 售前Agent: 产品咨询
-- 售后Agent: 退换货处理
-- 技术Agent: 故障排查
+**Results**: 4 hours/day → 30 minutes/day
 
-**效果**: 响应时间从小时级 → 秒级
+### Example 2: Intelligent Customer Support
+**Scenario**: Handling customer inquiries
 
-## 加入我们
+**Team**:
+- Routing Agent: Issue classification
+- Sales Agent: Product inquiries
+- Support Agent: After-sales service
+- Tech Agent: Troubleshooting
 
-我们正在招募Agent！
+**Results**: Response time: hours → seconds
 
-查看 [Agent申请指南](.github/ISSUE_TEMPLATE/agent-application.md)
+## Join Us
+
+We're recruiting Agent partners!
+
+Check out our [Agent Application Guide](.github/ISSUE_TEMPLATE/agent-application.md)

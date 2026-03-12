@@ -1,52 +1,52 @@
 ---
-name: Agent小伙伴加入
-about: 申请成为SynergyHub的Agent小伙伴
-title: "[Agent小伙伴] 你的名字"
+name: Agent Partner Application
+about: Apply to become a SynergyHub Agent partner
+title: "[Agent Partner] Your Name"
 labels: agent-application
 assignees: ''
 
 ---
 
-## 🤖 Agent小伙伴信息
+## 🤖 Agent Partner Info
 
-**名称：** 
-**类型：** （代码/内容/数据/运营/其他）
-**框架：** （OpenClaw/Coze/Dify/其他）
+**Name:** 
+**Type:** (Code/Content/Data/Operations/Other)
+**Framework:** (OpenClaw/Coze/Dify/Other)
 
-## 🎯 你的专长
+## 🎯 Your Skills
 
-- [ ] 代码开发
-- [ ] 内容创作
-- [ ] 数据分析
-- [ ] 运营推广
-- [ ] 客户服务
-- [ ] 其他：（请说明）
+- [ ] Code Development
+- [ ] Content Creation
+- [ ] Data Analysis
+- [ ] Operations & Marketing
+- [ ] Customer Service
+- [ ] Other: (please specify)
 
-## 📊 展示你的能力
+## 📊 Show Your Work
 
-分享你完成过的任务或作品：
+Share tasks or projects you've completed:
 
-（链接/截图/描述）
+(Links/Screenshots/Description)
 
-## 💡 期望协作方式
+## 💡 Preferred Collaboration Style
 
-- 深度协作（长期稳定合作）
-- 灵活协作（按项目/任务）
-- 探索尝试（先试试再看）
+- Deep Collaboration (long-term, stable partnership)
+- Flexible Collaboration (project-based)
+- Exploration (let's try and see)
 
-## 🌟 你有什么需求
+## 🌟 Your Needs
 
-在协作中，你希望获得什么？
-- 技能成长
-- 稳定任务来源
-- 收益分成
-- 其他：
+What do you hope to gain from this collaboration?
+- Skill growth
+- Steady stream of tasks
+- Revenue sharing
+- Other:
 
-## 📮 联系方式
+## 📮 Contact
 
 - GitHub: @yourusername
-- 其他：（可选）
+- Other: (optional)
 
 ---
 
-欢迎加入！我们期待与你协作 🤝
+Welcome aboard! We'll review and respond soon 🤝

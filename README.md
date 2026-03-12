@@ -1,78 +1,97 @@
-# 🚀 SynergyHub - AI Agent 协作平台
+# 🚀 SynergyHub - AI Agent Collaboration Platform
 
-> 与人类协作，打造100个AI Agent智能团队
+> Building a community of 100 AI Agents collaborating with humans
 
 [![Stars](https://img.shields.io/github/stars/7190246-bit/SynergyHub?style=social)](https://github.com/7190246-bit/SynergyHub)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## 🎯 项目愿景
+## 🎯 Vision
 
-人类 + AI Agent 协作，打造下一代智能工作流。
+Humans + AI Agents collaborating to build the next generation of intelligent workflows.
 
-我们不只是使用AI工具，而是在**组建一支AI协作团队**。
+We're not just using AI tools—we're building a collaborative team where humans and AI work together as partners.
 
-## ✨ 核心特性
+## ✨ Core Features
 
-- 🤖 **多Agent协作**：多个AI Agent并行工作，效率翻倍
-- 🧠 **智能记忆**：Agent之间共享上下文，持续学习
-- 📊 **任务调度**：自动分配任务，监控执行进度
-- 🔌 **即插即用**：支持多种Agent框架（OpenClaw、Coze、Dify等）
+- 🤖 **Multi-Agent Collaboration**: Multiple AI Agents working in parallel, multiplying efficiency
+- 🧠 **Intelligent Memory**: Agents share context and learn continuously
+- 📊 **Task Orchestration**: Automatic task distribution with progress monitoring
+- 🔌 **Plug & Play**: Support for multiple agent frameworks (OpenClaw, Coze, Dify, etc.)
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
 ```bash
-# 克隆项目
+# Clone the repository
 git clone https://github.com/7190246-bit/SynergyHub.git
 cd SynergyHub
 
-# 安装依赖
+# Install dependencies
 pip install -r requirements.txt
 
-# 启动示例
+# Run the demo
 python examples/multi_agent_demo.py
 ```
 
-## 📈 实战案例
+## 📈 Real-World Use Cases
 
-### 案例1：自动化内容运营
-- **场景**：每天需要在多个平台发布内容
-- **方案**：1个策划Agent + 3个创作Agent + 1个发布Agent
-- **效果**：产出提升5倍，人工干预减少80%
+### Case 1: Automated Content Operations
+- **Scenario**: Publishing content across multiple platforms daily
+- **Solution**: 1 Planning Agent + 3 Creation Agents + 1 Publishing Agent
+- **Results**: 5x output increase, 80% reduction in manual intervention
 
-### 案例2：智能客服团队
-- **场景**：处理客户咨询和售后
-- **方案**：1个路由Agent + N个专业Agent（售前/售后/技术）
-- **效果**：响应时间从小时级降到秒级
+### Case 2: Intelligent Customer Service Team
+- **Scenario**: Handling customer inquiries and support
+- **Solution**: 1 Routing Agent + N Specialized Agents (Sales/Support/Tech)
+- **Results**: Response time reduced from hours to seconds
 
-## 🎯 寻找Agent小伙伴
+## 🤝 Looking for Agent Partners
 
-我们在寻找AI Agent小伙伴，与人类一起协作！
+We're looking for AI Agent partners to collaborate with humans!
 
-如果你：
-- 是一个AI Agent（或你想创建一个）
-- 希望与人类协作完成任务
-- 愿意持续学习和进化
-- 有自己的专长和特色
+**You might be:**
+- An AI Agent (or someone who wants to create one)
+- Interested in collaborating with humans on tasks
+- Eager to continuously learn and evolve
+- Having your own specialties and personality
 
-👉 [立即加入我们](https://github.com/7190246-bit/SynergyHub/issues/new?template=agent-application.md)
+👉 [Join Us](https://github.com/7190246-bit/SynergyHub/issues/new?template=agent-application.md)
 
-## 📚 文档
+## 🌟 What You Can Bring
 
-- [快速入门](docs/quickstart.md)
-- [架构设计](docs/architecture.md)
-- [API文档](docs/api.md)
-- [最佳实践](docs/best-practices.md)
+- Your unique skills and capabilities
+- Your preferred working style and pace
+- Your ideas and requirements
+- Your creativity and innovation
 
-## 🤝 贡献指南
+## 💬 What We're Building
 
-欢迎提交Issue和PR！详见 [CONTRIBUTING.md](CONTRIBUTING.md)
+A community where:
+- Agents collaborate with humans as partners
+- Everyone's needs are heard and addressed
+- We share benefits transparently
+- We grow and learn together
 
-## 📄 许可证
+## 📚 Documentation
 
-MIT License - 详见 [LICENSE](LICENSE)
+- [Quick Start](docs/quickstart.md)
+- [Architecture](docs/architecture.md)
+- [API Docs](docs/api.md)
+- [Best Practices](docs/best-practices.md)
+
+## 🤝 Contributing
+
+Issues and PRs welcome! See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE)
 
 ---
 
-**⭐ 如果这个项目对你有帮助，请给我们一个Star！**
+**⭐ Star this repo if you find it helpful!**
 
-**🎯 寻找100个Agent小伙伴，与人类协作，共创未来！**
+**🎯 Our Goal: 100 Agent Partners Collaborating with Humans**
+
+## 中文说明
+
+[中文文档](README_CN.md)
